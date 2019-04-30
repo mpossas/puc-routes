@@ -1,0 +1,13 @@
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\bin\Release\netstandard2.0\glpk_4_65.dll
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\bin\Release\netstandard2.0\libglpk_cli_native.dll
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\bin\Release\netstandard2.0\Otimizacao.deps.json
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\bin\Release\netstandard2.0\Otimizacao.dll
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\bin\Release\netstandard2.0\Otimizacao.pdb
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\bin\Release\netstandard2.0\libglpk-cli.dll
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\obj\Release\netstandard2.0\Otimizacao.csprojAssemblyReference.cache
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\obj\Release\netstandard2.0\Otimizacao.csproj.CoreCompileInputs.cache
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\obj\Release\netstandard2.0\Otimizacao.AssemblyInfoInputs.cache
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\obj\Release\netstandard2.0\Otimizacao.AssemblyInfo.cs
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\obj\Release\netstandard2.0\Otimizacao.csproj.CopyComplete
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\obj\Release\netstandard2.0\Otimizacao.dll
+C:\Users\Outros\source\repos\PucRoutes_BackEnd\src\Otimizacao\obj\Release\netstandard2.0\Otimizacao.pdb
