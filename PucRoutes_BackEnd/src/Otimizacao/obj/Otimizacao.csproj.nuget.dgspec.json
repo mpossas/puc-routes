@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj": {}
+    "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj": {
+    "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj",
+        "projectUniqueName": "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj",
         "projectName": "Otimizacao",
-        "projectPath": "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj",
+        "projectPath": "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj",
         "packagesPath": "C:\\Users\\Outros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\Otimizacao\\obj\\",
+        "outputPath": "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\Otimizacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,11 +57,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true
-        }
-      },
-      "runtimes": {
-        "win-x86": {
-          "#import": []
         }
       }
     }

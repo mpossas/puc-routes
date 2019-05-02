@@ -1,9 +1,9 @@
-# Before you start
-        
-- Add the glpk_4_65.dll to the project ("Add Existing Item"). 
-- Set the glpk_4_65.dll, "copy to output directory" to "copy always" in the project.
-- Add the libglpk_cli_native.dll to the project ("Add Existing Item"). 
-- Set the libglpk_cli_native.dll, "copy to output directory" to "copy always" in the project. 
+# Antes de começar
+
+### Adicione as bibliotecas do GLPK ao projeto
+*As bibliotecas se encontram na pasta ./lib/*     
+- Adicione as bibliotecas glpk_4_65.dll e libglpk_cli_native.dll ao projeto ("Projeto > Adicionar Item Existente...").
+- Altere nas propriedades de cada biblioteca a opção "Copiar para Diretório de Saída" para "Copiar Sempre".
             
-- Add the libglpk-cli.dll as a reference (shall appear under Dependencies / Assemblies)
-- Set the libglpk-cli reference to "copy local" = yes
+- Adicione a biblioteca libglpk-cli.dll como uma referência (Projeto > Adicionar Referência...).
+- Altere nas propriedades da biblioteca a opção "Local da Cópia" para "Sim".

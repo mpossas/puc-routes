@@ -13320,11 +13320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\PucRoutesApi\\PucRoutesApi.csproj",
+      "projectUniqueName": "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\PucRoutesApi\\PucRoutesApi.csproj",
       "projectName": "PucRoutesApi",
-      "projectPath": "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\PucRoutesApi\\PucRoutesApi.csproj",
+      "projectPath": "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\PucRoutesApi\\PucRoutesApi.csproj",
       "packagesPath": "C:\\Users\\Outros\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\PucRoutesApi\\obj\\",
+      "outputPath": "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\PucRoutesApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13343,8 +13343,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj": {
-              "projectPath": "C:\\Users\\Outros\\source\\repos\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj"
+            "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj": {
+              "projectPath": "C:\\Users\\Outros\\source\\repos\\puc-routes\\PucRoutes_BackEnd\\src\\Otimizacao\\Otimizacao.csproj"
             }
           }
         }
