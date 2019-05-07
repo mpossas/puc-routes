@@ -13,34 +13,37 @@ export class HomePage {
   public vi: number;
   public vf: number;
   public caminho = '';
+  public loading: any;
 
   constructor(private homeService: HomeService,
               private loadingController: LoadingController) {
   }
 
   async presentLoading() {
-    const loading = await this.loadingController.create({
+    this.loading = await this.loadingController.create({
       message: 'Aguarde...',
+      translucent: true
     });
-    await loading.present();
+    await this.loading.present();
 
-    await this.buscarCaminho();
-    await loading.dismiss();
+    this.buscarCaminho();
   }
 
-  async buscarCaminho() {
+  buscarCaminho() {
     if (this.vi === null || this.vi === undefined) { return; }
 
     this.caminho = '';
     this.homeService.obterCaminho(this.vi, this.vf)
       .subscribe(
-        response => {
+        async response => {
           response.forEach(aresta => {
             this.caminho += aresta + '  ';
           });
+          await this.loading.dismiss();
         },
-        error => {
+        async error => {
           console.log(error);
+          await this.loading.dismiss();
         }
       );
   }
