@@ -1,0 +1,48 @@
+echo Installing npm dependencies...
+echo --------------------------------------------------------------------------------
+npm i -g ionic
+npm i -g cordova@8.1.2
+npm i -g gulp
+npm i
+
+# macOS (Requer o Xcode)
+# sudo npm i -g ios-deploy --unsafe-perm=true
+# sudo npm i --unsafe-perm=true
+
+echo
+echo Installing Bower dependencies...
+echo --------------------------------------------------------------------------------
+bower install
+
+echo
+echo Installing Cordova plugins...
+echo --------------------------------------------------------------------------------
+del /s plugins/
+cordova plugin add cordova-plugin-console
+cordova plugin add cordova-plugin-device
+cordova plugin add cordova-plugin-dialogs
+cordova plugin add cordova-plugin-disable-ios11-statusbar
+cordova plugin add cordova-plugin-geolocation --variable GEOLOCATION_USAGE_DESCRIPTION="Encontrar um sal�o pr�ximo"
+cordova plugin add cordova-plugin-settings-hook
+cordova plugin add cordova-plugin-splashscreen
+cordova plugin add cordova-plugin-statusbar
+cordova plugin add cordova-plugin-whitelist
+cordova plugin add cordova-plugin-x-toast
+cordova plugin add ionic-plugin-keyboard
+cordova plugin add cordova-plugin-facebook4 --variable APP_ID="1765005640466412" --variable APP_NAME="ONE Beleza &amp; Bem-estar"
+cordova plugin add cordova-plugin-calendar --variable CALENDAR_USAGE_DESCRIPTION="Salvar agendamentos"
+cordova plugin add phonegap-plugin-push
+cordova plugin add cordova-android-support-gradle-release
+
+echo
+echo Adding platforms
+echo --------------------------------------------------------------------------------
+del /s platforms/
+cordova platform add ios
+cordova platform add android
+
+echo
+echo "Verifying... (make sure there're no errors below)"
+echo --------------------------------------------------------------------------------
+gulp debug
+gulp release
